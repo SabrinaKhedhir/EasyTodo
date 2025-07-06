@@ -1,0 +1,5 @@
+if(EXISTS "C:/EasyTodo/cmake-build-debug/test_lista_attivita[1]_tests.cmake")
+  include("C:/EasyTodo/cmake-build-debug/test_lista_attivita[1]_tests.cmake")
+else()
+  add_test(test_lista_attivita_NOT_BUILT test_lista_attivita_NOT_BUILT)
+endif()

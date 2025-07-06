@@ -1,0 +1,7 @@
+# ninja log v6
+64	9346	7735358193882756	build.ninja	56e5443499acbb3a
+29	570	7735358195414752	CMakeFiles/EasyTodo.dir/src/Attivita.cpp.obj	eda676fa7b4fc684
+101	787	7735358196144194	CMakeFiles/EasyTodo.dir/src/GestoreFile.cpp.obj	67856d846b5c5bd7
+61	803	7735358195738226	CMakeFiles/EasyTodo.dir/src/ListaAttivita.cpp.obj	3c65a906b4099736
+3	806	7735358195161467	CMakeFiles/EasyTodo.dir/src/main.cpp.obj	46dc793115e95ecd
+806	1587	7735358203191017	EasyTodo.exe	b6fb1f8b5b584370
