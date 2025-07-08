@@ -1,0 +1,36 @@
+# CMake build directory
+cmake-build-*/
+
+# Eseguibili generati
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.a
+*.lib
+
+# File di log e temporanei
+*.log
+*.tmp
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# File CLion / JetBrains
+.idea/
+*.iml
+
+# Cache di compilazione
+CMakeFiles/
+CMakeCache.txt
+Makefile
+compile_commands.json
+Testing/
+CTestTestfile.cmake
+cmake_install.cmake
+
+# File temporanei dell'utente
+*.swp
+*~
