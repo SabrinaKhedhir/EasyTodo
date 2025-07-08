@@ -8,6 +8,8 @@ class GestoreFile {
 public:
     static void salvaSuFile(const ListaAttivita& lista, const std::string& nomeFile);
     static void caricaDaFile(ListaAttivita& lista, const std::string& nomeFile);
+    static void salvaDaFare(const ListaAttivita& lista, const std::string& nomeFile);
+    static void salvaCompletate(const ListaAttivita& lista, const std::string& nomeFile);
 };
 
 #endif // GESTOREFILE_H
