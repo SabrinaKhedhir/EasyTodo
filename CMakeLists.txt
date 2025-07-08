@@ -9,6 +9,10 @@ add_executable(EasyTodo
         src/Attivita.cpp
         src/ListaAttivita.cpp
         src/GestoreFile.cpp
+        src/Observer.h
+        src/Logger.h
+        src/Subject.h
+
 )
 
 # ------------------ GOOGLE TEST ------------------

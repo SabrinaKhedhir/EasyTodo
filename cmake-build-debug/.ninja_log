@@ -1,13 +1,7 @@
 # ninja log v6
-64	9346	7737065388523210	build.ninja	56e5443499acbb3a
-129	1553	7736991155798605	CMakeFiles/EasyTodo.dir/src/Attivita.cpp.obj	eda676fa7b4fc684
-52	1016	7737065146428287	CMakeFiles/EasyTodo.dir/src/GestoreFile.cpp.obj	67856d846b5c5bd7
-160	1652	7736969464857470	CMakeFiles/EasyTodo.dir/src/ListaAttivita.cpp.obj	3c65a906b4099736
-6	1140	7737065145969164	CMakeFiles/EasyTodo.dir/src/main.cpp.obj	46dc793115e95ecd
-16	1182	7737055976471530	EasyTodo.exe	b6fb1f8b5b584370
-54	1874	7737066336291126	CMakeFiles/EasyTodo.dir/src/GestoreFile.cpp.obj	67856d846b5c5bd7
-1875	4267	7737066354504832	EasyTodo.exe	b6fb1f8b5b584370
-111	1149	7737074178028303	CMakeFiles/EasyTodo.dir/src/main.cpp.obj	46dc793115e95ecd
-13	1353	7737074253203346	EasyTodo.exe	b6fb1f8b5b584370
-114	1338	7737080331291324	CMakeFiles/EasyTodo.dir/src/main.cpp.obj	46dc793115e95ecd
-8	1019	7737080389635317	EasyTodo.exe	b6fb1f8b5b584370
+64	9346	7737118311869892	build.ninja	56e5443499acbb3a
+42	2190	7737106599091757	CMakeFiles/EasyTodo.dir/src/Attivita.cpp.obj	eda676fa7b4fc684
+111	2197	7737106599762029	CMakeFiles/EasyTodo.dir/src/GestoreFile.cpp.obj	67856d846b5c5bd7
+65	2496	7737106599297688	CMakeFiles/EasyTodo.dir/src/ListaAttivita.cpp.obj	3c65a906b4099736
+18	2471	7737106598834587	CMakeFiles/EasyTodo.dir/src/main.cpp.obj	46dc793115e95ecd
+2496	3505	7737106623617360	EasyTodo.exe	b6fb1f8b5b584370
