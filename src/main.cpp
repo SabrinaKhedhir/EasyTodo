@@ -29,9 +29,7 @@ int main() {
 
     int scelta;
     std::string input;
-    std::string nomeFile = "todo.txt";
-    std::string fileDaFare = "todo_dafare.txt";
-    std::string fileCompletate = "todo_completate.txt";
+
 
     do {
         system("cls"); // usa "clear" su Mac/Linux

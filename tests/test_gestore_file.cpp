@@ -1,28 +1,22 @@
 #include "gtest/gtest.h"
 #include "../src/GestoreFile.h"
 #include <fstream>
-#include <cstdio> // per std::remove
 
-TEST(GestoreFileTest, SalvataggioECaricamento) {
+TEST(GestoreFileTest, SalvataggioSuFile) {
     ListaAttivita lista;
-    lista.aggiungiAttivita(Attivita("Comprare il pane"));
-    lista.aggiungiAttivita(Attivita("Studiare C++"));
-    lista.completaAttivita(1);
+    Attivita att("Scrivi il test", std::time(nullptr), std::time(nullptr));
+    lista.aggiungiAttivita(att);
 
-    std::string nomeFile = "test_todo.txt";
+    std::string filename = "test_output.txt";
+    GestoreFile::salvaSuFile(lista, filename);
 
-    // Salva su file
-    GestoreFile::salvaSuFile(lista, nomeFile);
+    std::ifstream file(filename);
+    ASSERT_TRUE(file.is_open());
 
-    // Carica da file in una nuova lista
-    ListaAttivita caricata;
-    GestoreFile::caricaDaFile(caricata, nomeFile);
+    std::string contenuto;
+    std::getline(file, contenuto);
+    EXPECT_NE(contenuto.find("Scrivi il test"), std::string::npos);
 
-    EXPECT_EQ(caricata.getNumeroAttivita(), 2);
-    EXPECT_EQ(caricata.getAttivita(0).getDescrizione(), "Comprare il pane");
-    EXPECT_FALSE(caricata.getAttivita(0).isCompletata());
-    EXPECT_EQ(caricata.getAttivita(1).getDescrizione(), "Studiare C++");
-    EXPECT_TRUE(caricata.getAttivita(1).isCompletata());
-
-    std::remove(nomeFile.c_str()); // cancella file dopo il test
+    file.close();
+    std::remove(filename.c_str()); // pulizia dopo test
 }

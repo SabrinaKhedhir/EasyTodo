@@ -3,7 +3,7 @@
 
 #include <vector>
 #include "Attivita.h"
-#include "Subject.h"  // ✅ Importa il Subject (Observer pattern)
+#include "Subject.h"
 
 class ListaAttivita : public Subject {
 private:

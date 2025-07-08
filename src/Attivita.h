@@ -16,7 +16,7 @@ public:
     Attivita(const std::string& desc, std::time_t dataCreaz, std::time_t dataFare);
 
     std::string getDescrizione() const;
-    void setDescrizione(const std::string& nuovaDesc);
+    void setDescrizione(const std::string& nuovaDesc); // ✅ AGGIUNTO
 
     bool isCompletata() const;
     void completa();

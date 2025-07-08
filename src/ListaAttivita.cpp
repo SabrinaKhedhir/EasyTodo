@@ -7,7 +7,7 @@
 
 void ListaAttivita::aggiungiAttivita(const Attivita& attivita) {
     elenco.push_back(attivita);
-    notifica("Attività aggiunta: " + attivita.getDescrizione());
+    notifica("Attività aggiunta: " + attivita.getDescrizione());  // ✅ Observer
 }
 
 void ListaAttivita::mostraAttivita() const {
@@ -20,11 +20,9 @@ void ListaAttivita::mostraAttivita() const {
         oss << std::put_time(tm_info, "%d/%m/%Y %H:%M");
 
         std::cout << i << ". " << att.getDescrizione()
-           << " [" << (att.isCompletata() ? "Completata" : "Da fare") << "]"
-           << " - creata il " << oss.str()
-           << " - da fare il " << att.getDataDaFareStringa()
-           << "\n";
-
+                  << " [" << (att.isCompletata() ? "Completata" : "Da fare") << "]"
+                  << " - creata il " << oss.str()
+                  << "\n";
     }
 }
 
@@ -47,7 +45,7 @@ void ListaAttivita::rimuoviAttivita(int indice) {
     if (indice >= 0 && indice < elenco.size()) {
         std::string desc = elenco[indice].getDescrizione();
         elenco.erase(elenco.begin() + indice);
-        notifica("Attività rimossa: " + desc);
+        notifica("Attività rimossa: " + desc);  // ✅ Observer
     }
 }
 

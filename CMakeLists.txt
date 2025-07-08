@@ -9,15 +9,12 @@ add_executable(EasyTodo
         src/Attivita.cpp
         src/ListaAttivita.cpp
         src/GestoreFile.cpp
-        src/Observer.h
-        src/Logger.h
-        src/Subject.h
-
 )
 
 # ------------------ GOOGLE TEST ------------------
 include(FetchContent)
-
+include(CTest)
+include(GoogleTest)
 FetchContent_Declare(
         googletest
         URL https://github.com/google/googletest/archive/refs/tags/release-1.12.1.zip
@@ -25,38 +22,32 @@ FetchContent_Declare(
 
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
-
+include(GoogleTest)
 enable_testing()
 
-# Test: Attivita
+# Test attivita
 add_executable(test_attivita
         tests/test_attivita.cpp
         src/Attivita.cpp
 )
-
 target_link_libraries(test_attivita gtest_main)
+gtest_discover_tests(test_attivita)
 
-# Test: ListaAttivita
+# Test lista attivita
 add_executable(test_lista_attivita
         tests/test_lista_attivita.cpp
         src/ListaAttivita.cpp
         src/Attivita.cpp
 )
-
 target_link_libraries(test_lista_attivita gtest_main)
+gtest_discover_tests(test_lista_attivita)
 
-# Test: GestoreFile
+# Test gestore file
 add_executable(test_gestore_file
         tests/test_gestore_file.cpp
         src/GestoreFile.cpp
         src/ListaAttivita.cpp
         src/Attivita.cpp
 )
-
 target_link_libraries(test_gestore_file gtest_main)
-
-
-include(GoogleTest)
-gtest_discover_tests(test_attivita)
-gtest_discover_tests(test_lista_attivita)
 gtest_discover_tests(test_gestore_file)

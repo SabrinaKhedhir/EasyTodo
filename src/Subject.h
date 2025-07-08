@@ -19,6 +19,7 @@ public:
         osservatori.erase(std::remove(osservatori.begin(), osservatori.end(), obs), osservatori.end());
     }
 
+
     void notifica(const std::string& messaggio) {
         for (auto obs : osservatori) {
             obs->update(messaggio);
