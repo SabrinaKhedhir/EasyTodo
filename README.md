@@ -36,18 +36,17 @@ EasyTodo** è un'applicazione C++ da linea di comando per gestire attività da f
 
 ## 🧪 Testing
 Include 3 suite di test:
-    -test_attivita: verifica Attivita
-    -test_lista_attivita: verifica ListaAttivita
-    -test_gestore_file: verifica scrittura file
-
+         -test_attivita: verifica Attivita
+        -test_lista_attivita: verifica ListaAttivita
+        -test_gestore_file: verifica scrittura file
 
 ## 📄 File salvati
 Il programma salva su tre file diversi:
-    todo_tutte.txt – tutte le attività
-    todo_dafare.txt – solo quelle da completare
-    todo_completate.txt – solo quelle completate
+          todo_tutte.txt – tutte le attività
+         todo_dafare.txt – solo quelle da completare
+         todo_completate.txt – solo quelle completate
 
 ## 👩‍💻 Autore
-Sabrina Khedhir
-Corso di Ingegneria Informatica – Università degli Studi di Firenze
-Anno Accademico 2024/2025
+    Sabrina Khedhir
+    Corso di Ingegneria Informatica – Università degli Studi di Firenze
+    Anno Accademico 2024/2025
