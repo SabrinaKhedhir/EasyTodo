@@ -17,22 +17,22 @@ EasyTodo** è un'applicazione C++ da linea di comando per gestire attività da f
 
 ## 📁 Struttura del progetto
 
-EasyTodo/
-│
-├── src/
-│ ├── main.cpp
-│ ├── Attivita.cpp / Attivita.h
-│ ├── ListaAttivita.cpp / ListaAttivita.h
-│ ├── GestoreFile.cpp / GestoreFile.h
-│ ├── Subject.h / Observer.h / Logger.h
-│
-├── tests/
-│ ├── test_attivita.cpp
-│ ├── test_lista_attivita.cpp
-│ ├── test_gestore_file.cpp
-│
-├── CMakeLists.txt
-└── README.md <-- (questo file)
+        EasyTodo/
+        │
+        ├── src/
+        │ ├── main.cpp
+        │ ├── Attivita.cpp / Attivita.h
+        │ ├── ListaAttivita.cpp / ListaAttivita.h
+        │ ├── GestoreFile.cpp / GestoreFile.h
+        │ ├── Subject.h / Observer.h / Logger.h
+        │
+        ├── tests/
+        │ ├── test_attivita.cpp
+        │ ├── test_lista_attivita.cpp
+        │ ├── test_gestore_file.cpp
+        │
+        ├── CMakeLists.txt
+        └── README.md <-- (questo file)
 
 ## 🧪 Testing
 Include 3 suite di test:
