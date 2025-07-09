@@ -1,7 +1,6 @@
 # 📝 EasyTodo
 
-
-**EasyTodo** è un'applicazione C++ da linea di comando per gestire attività da fare. Permette di aggiungere, visualizzare, modificare, eliminare e salvare attività su file, con un sistema di log basato sul pattern Observer. Include test automatici con GoogleTest.
+EasyTodo** è un'applicazione C++ da linea di comando per gestire attività da fare. Permette di aggiungere, visualizzare, modificare, eliminare e salvare attività su file, con un sistema di log basato sul pattern Observer. Include test automatici con GoogleTest.
 
 ## 🚀 Funzionalità principali
 
@@ -18,49 +17,37 @@
 
 ## 📁 Struttura del progetto
 
-        EasyTodo/
-        │
-        ├── src/
-        │ ├── main.cpp
-        │ ├── Attivita.cpp / Attivita.h
-        │ ├── ListaAttivita.cpp / ListaAttivita.h
-        │ ├── GestoreFile.cpp / GestoreFile.h
-        │ ├── Subject.h / Observer.h / Logger.h
-        │
-        ├── tests/
-        │ ├── test_attivita.cpp
-        │ ├── test_lista_attivita.cpp
-        │ ├── test_gestore_file.cpp
-        │
-        ├── CMakeLists.txt
-        └── README.md 
+EasyTodo/
+│
+├── src/
+│ ├── main.cpp
+│ ├── Attivita.cpp / Attivita.h
+│ ├── ListaAttivita.cpp / ListaAttivita.h
+│ ├── GestoreFile.cpp / GestoreFile.h
+│ ├── Subject.h / Observer.h / Logger.h
+│
+├── tests/
+│ ├── test_attivita.cpp
+│ ├── test_lista_attivita.cpp
+│ ├── test_gestore_file.cpp
+│
+├── CMakeLists.txt
+└── README.md <-- (questo file)
 
-## 🛠️ Come compilare ed eseguire
-
-Requisiti:
-- CLion (consigliato) o un compilatore C++17
-- CMake >= 3.20
-
-## 🧪 Test automatici
-
+## 🧪 Testing
 Include 3 suite di test:
-    *test_attivita: verifica Attivita
-    *test_lista_attivita: verifica ListaAttivita
-    *test_gestore_file: verifica scrittura file
+    -test_attivita: verifica Attivita
+    -test_lista_attivita: verifica ListaAttivita
+    -test_gestore_file: verifica scrittura file
 
-Per eseguire i test:
-```bash
-./test_attivita
-./test_lista_attivita
-./test_gestore_file
 
-## 📄  File salvati
+## 📄 File salvati
 Il programma salva su tre file diversi:
-    -todo_tutte.txt – tutte le attività
-    -todo_dafare.txt – solo quelle da completare
-    -todo_completate.txt – solo quelle completate
+    todo_tutte.txt – tutte le attività
+    todo_dafare.txt – solo quelle da completare
+    todo_completate.txt – solo quelle completate
 
-👩‍💻 Autore
+## 👩‍💻 Autore
 Sabrina Khedhir
 Corso di Ingegneria Informatica – Università degli Studi di Firenze
 Anno Accademico 2024/2025
