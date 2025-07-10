@@ -1,0 +1,35 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🔽 Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 🧰 Set up CMake
+        uses: lukka/get-cmake@latest
+
+      - name: 🛠️ Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y build-essential cmake libgtest-dev
+
+      - name: 🔧 Configure CMake
+        run: cmake -S . -B build
+
+      - name: 🔨 Build project
+        run: cmake --build build
+
+      - name: 🧪 Run tests
+        run: |
+          cd build
+          ./test_attivita
+          ./test_lista_attivita
+          ./test_gestore_file
