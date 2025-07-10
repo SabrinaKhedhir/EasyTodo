@@ -9,7 +9,6 @@ TEST(GestoreFileTest, SalvataggioSuFile) {
 
     std::string filename = "test_output.txt";
     GestoreFile::salvaSuFile(lista, filename);
-
     std::ifstream file(filename);
     ASSERT_TRUE(file.is_open());
 

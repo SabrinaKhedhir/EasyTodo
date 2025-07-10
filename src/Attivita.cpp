@@ -26,9 +26,6 @@ void Attivita::setDescrizione(const std::string& nuovaDesc) {
     descrizione = nuovaDesc;
 }
 
-bool Attivita::isCompletata() const {
-    return completata;
-}
 
 void Attivita::completa() {
     completata = true;

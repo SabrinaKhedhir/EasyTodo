@@ -18,7 +18,6 @@ void GestoreFile::salvaSuFile(const ListaAttivita& lista, const std::string& nom
 }
 
 
-
 void GestoreFile::salvaDaFare(const ListaAttivita& lista, const std::string& nomeFile) {
     std::ofstream outFile(nomeFile);
     for (int i = 0; i < lista.getNumeroAttivita(); ++i) {

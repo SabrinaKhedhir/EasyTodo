@@ -14,12 +14,12 @@ private:
 public:
     Attivita(const std::string& desc, const std::string& dataDaFareString);
     Attivita(const std::string& desc, std::time_t dataCreaz, std::time_t dataFare);
-
+    void completa();
     std::string getDescrizione() const;
     void setDescrizione(const std::string& nuovaDesc); // ✅ AGGIUNTO
 
-    bool isCompletata() const;
-    void completa();
+    bool isCompletata() const { return completata; }
+
 
     std::time_t getDataCreazione() const;
     std::string getDataCreazioneStringa() const;

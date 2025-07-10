@@ -35,7 +35,7 @@ int main() {
         system("cls"); // usa "clear" su Mac/Linux
         mostraMenu();
         std::cin >> scelta;
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // pulisce il buffer
 
         switch (scelta) {
             case 1: {
