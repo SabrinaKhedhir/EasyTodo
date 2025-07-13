@@ -14,12 +14,14 @@ void mostraMenu() {
     std::cout << "2️⃣  Mostra elenco attività\n";
     std::cout << "3️⃣  Segna attività come completata\n";
     std::cout << "4️⃣  Salva attività su file \U0001F4BE\n";
-    std::cout << "5️⃣  Elimina un'attività ❌\n";
-    std::cout << "6️⃣  Modifica un'attività ✏️\n";
-    std::cout << "7️⃣  Esci dal programma \U0001F6AA\n";
+    std::cout << "5️⃣  Carica attività da file \U0001F4C2\n";  // ✅ Spostata qui
+    std::cout << "6️⃣  Elimina un'attività ❌\n";
+    std::cout << "7️⃣  Modifica un'attività ✏️\n";
+    std::cout << "8️⃣  Esci dal programma \U0001F6AA\n";
     std::cout << "===============================\n";
     std::cout << "\U0001F449 Scelta: ";
 }
+
 
 
 int main() {
@@ -126,6 +128,12 @@ int main() {
 
 
             case 5: {
+                std::string file = "todo_tutte.txt";  // puoi personalizzare
+                GestoreFile::caricaDaFile(lista, file);
+                break;
+            }
+
+            case 6: {
                 std::cout << "\n❌ Inserisci l'indice dell'attività da eliminare: ";
                 int index;
                 std::cin >> index;
@@ -135,7 +143,7 @@ int main() {
                 break;
             }
 
-            case 6: {
+            case 7: {
                 std::cout << "✏️ Inserisci l'indice dell'attività da modificare: ";
                 int index;
                 std::cin >> index;
@@ -184,7 +192,7 @@ int main() {
 
                 break;
             }
-            case 7:
+            case 8:
                 std::cout << "👋 Uscita dal programma. A presto!\n";
                 break;
             default:
@@ -192,7 +200,7 @@ int main() {
                 break;
         }
 
-    } while (scelta != 0);
+    } while (scelta != 8);
 
     return 0;
 }
