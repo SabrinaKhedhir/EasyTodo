@@ -1,3 +1,192 @@
-Start testing: Jul 14 23:13 Paris, Madrid (heure d’été)
+Start testing: Jul 14 23:22 Paris, Madrid (heure d’été)
 ----------------------------------------------------------
-End testing: Jul 14 23:13 Paris, Madrid (heure d’été)
+1/7 Testing: AttivitaTest.DescrizioneIniziale
+1/7 Test: AttivitaTest.DescrizioneIniziale
+Command: "C:/EasyTodo/cmake-build-debug/test_attivita.exe" "--gtest_filter=AttivitaTest.DescrizioneIniziale" "--gtest_also_run_disabled_tests"
+Directory: C:/EasyTodo/cmake-build-debug
+"AttivitaTest.DescrizioneIniziale" start time: Jul 14 23:22 Paris, Madrid (heure d’été)
+Output:
+----------------------------------------------------------
+Running main() from C:/EasyTodo/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AttivitaTest.DescrizioneIniziale
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AttivitaTest
+[ RUN      ] AttivitaTest.DescrizioneIniziale
+[       OK ] AttivitaTest.DescrizioneIniziale (4 ms)
+[----------] 1 test from AttivitaTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (7 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"AttivitaTest.DescrizioneIniziale" end time: Jul 14 23:22 Paris, Madrid (heure d’été)
+"AttivitaTest.DescrizioneIniziale" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: AttivitaTest.StatoIniziale
+2/7 Test: AttivitaTest.StatoIniziale
+Command: "C:/EasyTodo/cmake-build-debug/test_attivita.exe" "--gtest_filter=AttivitaTest.StatoIniziale" "--gtest_also_run_disabled_tests"
+Directory: C:/EasyTodo/cmake-build-debug
+"AttivitaTest.StatoIniziale" start time: Jul 14 23:22 Paris, Madrid (heure d’été)
+Output:
+----------------------------------------------------------
+Running main() from C:/EasyTodo/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AttivitaTest.StatoIniziale
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AttivitaTest
+[ RUN      ] AttivitaTest.StatoIniziale
+[       OK ] AttivitaTest.StatoIniziale (1 ms)
+[----------] 1 test from AttivitaTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"AttivitaTest.StatoIniziale" end time: Jul 14 23:22 Paris, Madrid (heure d’été)
+"AttivitaTest.StatoIniziale" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: AttivitaTest.Completamento
+3/7 Test: AttivitaTest.Completamento
+Command: "C:/EasyTodo/cmake-build-debug/test_attivita.exe" "--gtest_filter=AttivitaTest.Completamento" "--gtest_also_run_disabled_tests"
+Directory: C:/EasyTodo/cmake-build-debug
+"AttivitaTest.Completamento" start time: Jul 14 23:22 Paris, Madrid (heure d’été)
+Output:
+----------------------------------------------------------
+Running main() from C:/EasyTodo/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AttivitaTest.Completamento
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AttivitaTest
+[ RUN      ] AttivitaTest.Completamento
+[       OK ] AttivitaTest.Completamento (0 ms)
+[----------] 1 test from AttivitaTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"AttivitaTest.Completamento" end time: Jul 14 23:22 Paris, Madrid (heure d’été)
+"AttivitaTest.Completamento" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: AttivitaTest.CambiaDescrizione
+4/7 Test: AttivitaTest.CambiaDescrizione
+Command: "C:/EasyTodo/cmake-build-debug/test_attivita.exe" "--gtest_filter=AttivitaTest.CambiaDescrizione" "--gtest_also_run_disabled_tests"
+Directory: C:/EasyTodo/cmake-build-debug
+"AttivitaTest.CambiaDescrizione" start time: Jul 14 23:22 Paris, Madrid (heure d’été)
+Output:
+----------------------------------------------------------
+Running main() from C:/EasyTodo/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AttivitaTest.CambiaDescrizione
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AttivitaTest
+[ RUN      ] AttivitaTest.CambiaDescrizione
+[       OK ] AttivitaTest.CambiaDescrizione (1 ms)
+[----------] 1 test from AttivitaTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"AttivitaTest.CambiaDescrizione" end time: Jul 14 23:22 Paris, Madrid (heure d’été)
+"AttivitaTest.CambiaDescrizione" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: ListaAttivitaTest.AggiuntaAttivita
+5/7 Test: ListaAttivitaTest.AggiuntaAttivita
+Command: "C:/EasyTodo/cmake-build-debug/test_lista_attivita.exe" "--gtest_filter=ListaAttivitaTest.AggiuntaAttivita" "--gtest_also_run_disabled_tests"
+Directory: C:/EasyTodo/cmake-build-debug
+"ListaAttivitaTest.AggiuntaAttivita" start time: Jul 14 23:22 Paris, Madrid (heure d’été)
+Output:
+----------------------------------------------------------
+Running main() from C:/EasyTodo/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ListaAttivitaTest.AggiuntaAttivita
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ListaAttivitaTest
+[ RUN      ] ListaAttivitaTest.AggiuntaAttivita
+[       OK ] ListaAttivitaTest.AggiuntaAttivita (0 ms)
+[----------] 1 test from ListaAttivitaTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"ListaAttivitaTest.AggiuntaAttivita" end time: Jul 14 23:22 Paris, Madrid (heure d’été)
+"ListaAttivitaTest.AggiuntaAttivita" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: ListaAttivitaTest.RimuoviAttivita
+6/7 Test: ListaAttivitaTest.RimuoviAttivita
+Command: "C:/EasyTodo/cmake-build-debug/test_lista_attivita.exe" "--gtest_filter=ListaAttivitaTest.RimuoviAttivita" "--gtest_also_run_disabled_tests"
+Directory: C:/EasyTodo/cmake-build-debug
+"ListaAttivitaTest.RimuoviAttivita" start time: Jul 14 23:22 Paris, Madrid (heure d’été)
+Output:
+----------------------------------------------------------
+Running main() from C:/EasyTodo/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ListaAttivitaTest.RimuoviAttivita
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ListaAttivitaTest
+[ RUN      ] ListaAttivitaTest.RimuoviAttivita
+[       OK ] ListaAttivitaTest.RimuoviAttivita (0 ms)
+[----------] 1 test from ListaAttivitaTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ListaAttivitaTest.RimuoviAttivita" end time: Jul 14 23:22 Paris, Madrid (heure d’été)
+"ListaAttivitaTest.RimuoviAttivita" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: GestoreFileTest.SalvataggioECaricamento
+7/7 Test: GestoreFileTest.SalvataggioECaricamento
+Command: "C:/EasyTodo/cmake-build-debug/test_gestore_file.exe" "--gtest_filter=GestoreFileTest.SalvataggioECaricamento" "--gtest_also_run_disabled_tests"
+Directory: C:/EasyTodo/cmake-build-debug
+"GestoreFileTest.SalvataggioECaricamento" start time: Jul 14 23:22 Paris, Madrid (heure d’été)
+Output:
+----------------------------------------------------------
+Running main() from C:/EasyTodo/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = GestoreFileTest.SalvataggioECaricamento
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GestoreFileTest
+[ RUN      ] GestoreFileTest.SalvataggioECaricamento
+[       OK ] GestoreFileTest.SalvataggioECaricamento (8 ms)
+[----------] 1 test from GestoreFileTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"GestoreFileTest.SalvataggioECaricamento" end time: Jul 14 23:22 Paris, Madrid (heure d’été)
+"GestoreFileTest.SalvataggioECaricamento" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 14 23:22 Paris, Madrid (heure d’été)
